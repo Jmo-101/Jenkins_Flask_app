@@ -25,7 +25,7 @@ This project was made to see my understanding of how to successfully deploy an a
 - **Added the GitHub credential key to the pipeline**
 - **Application files ran successfully after troubleshooting**
 
-<img width="1200" alt="Screenshot 2023-08-25 at 8 49 27 PM" src="https://github.com/Jmo-101/Jenkins_Flask_app/assets/138607757/78596559-6a02-4540-8c20-81a374b481b7">
+<img width="1050" alt="Screenshot 2023-08-25 at 8 49 27 PM" src="https://github.com/Jmo-101/Jenkins_Flask_app/assets/138607757/78596559-6a02-4540-8c20-81a374b481b7">
   
 
 ## Local Terminal:
@@ -33,6 +33,9 @@ This project was made to see my understanding of how to successfully deploy an a
 - **Jenkins had created a zipped file after successfully running the pipeline due to coding in our application**
 - **I had to figure out how to extract the zipped file from Jenkins**
 - **Used an SCP command in my local terminal to extract the zipped file from Jenkins**
+
+<img width="700" alt="Screenshot 2023-08-26 at 1 01 32 AM" src="https://github.com/Jmo-101/Jenkins_Flask_app/assets/138607757/1951bab3-e6f7-4e0c-a07b-447ce93cc41e">
+
 
 ## AWS Elastic Beanstalk:
 
