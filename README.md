@@ -30,7 +30,7 @@ This project was made to see my understanding of how to successfully deploy an a
 - **Added the GitHub credential key to the pipeline**
 - **Application files ran successfully after troubleshooting**
 
-<img width="650" alt="Screenshot 2023-08-25 at 8 49 27 PM" src="https://github.com/Jmo-101/Jenkins_Flask_app/assets/138607757/78596559-6a02-4540-8c20-81a374b481b7">
+<img width="550" alt="Screenshot 2023-08-25 at 8 49 27 PM" src="https://github.com/Jmo-101/Jenkins_Flask_app/assets/138607757/78596559-6a02-4540-8c20-81a374b481b7">
   
 
 ## Local Terminal:
