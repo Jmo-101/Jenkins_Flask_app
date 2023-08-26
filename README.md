@@ -8,7 +8,7 @@ This project was made to see my understanding of how to successfully deploy an a
 
 ## Planning:
 
-<img width="350" alt="Screenshot 2023-08-26 at 1 27 40 AM" src="https://github.com/Jmo-101/Jenkins_Flask_app/assets/138607757/754c1bf6-6b41-4fcc-9628-284a6f0ad187">
+<img width="400" alt="Screenshot 2023-08-26 at 1 27 40 AM" src="https://github.com/Jmo-101/Jenkins_Flask_app/assets/138607757/754c1bf6-6b41-4fcc-9628-284a6f0ad187">
 
 
 ## Github:
