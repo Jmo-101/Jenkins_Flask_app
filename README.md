@@ -1,26 +1,44 @@
 <p align="center">
 <img src="https://github.com/kura-labs-org/kuralabs_deployment_1/blob/main/Kuralogo.png">
 </p>
-<h1 align="center">C4_deployment-2<h1> 
 
-Demonstrate your ability to run a Jenkins build and manually deploy to Elastic Beanstalk.
+# About
 
-- Create a separate GitHub repository for this application 
+This project was made to see my understanding of how to successfully deploy an application on Elastic Beanstalk by manually installing a Jenkins server on an AWS EC2 instance, running a successful pipeline, and achieving a successful deployment on AWS Elastic Beanstalk. Below are the steps I took to achieve that.
 
-- Download the files from this repository and upload them to your newly created repository 
+## Github:
 
-- Be sure to follow the deployment instructions from this Repository  
+- **Download zipped files from a repository**
+- **Unzip the files from the repository into our local machine**
+- **Upload the files into our own Repository**
+- **Created a credential key to add to Jenkins later on**
 
-- Document your progress in a .md file in your repository. Also, document any issues you may run into and what you did to fix them.
-  
-- Make sure your documentation includes these sections:
-  - Purpose
-  - Issues
-  - Steps
-  - System Diagram
-  - Optimization (How would make this deployment more efficient)
+## AWS EC2:
 
-- Lastly, save your documentation and diagram into your repository. Submit your repository link to the LMS
+- **Carefully install Jenkins in an EC2 instance**
+- **Download and install the correct Python version into our instance**
 
-## Deployment instructions Link:
--  [Link to instructions: https://github.com/kura-labs-org/C4_deployment-2/blob/main/Deployment-instructions.md
+## Jenkins:
+
+- **Log into Jenkins using the public key from my EC2 instance**
+- **Created a pipeline to test out the application files**
+- **Added the GitHub credential key to the pipeline**
+- **Application files ran successfully after troubleshooting**
+
+## Local Terminal:
+
+- **Jenkins had created a zipped file after successfully running the pipeline due to coding in our application**
+- **I had to figure out how to extract the zipped file from Jenkins**
+- **Used an SCP command in my local terminal to extract the zipped file from Jenkins**
+
+## AWS Elastic Beanstalk:
+
+- **I had to create IAM roles for my Elastic Beanstalk and EC2**
+- **Added the application name "URL-shortener"**
+- **Uploaded the zipped application file I extracted from Jenkins**
+- **Added a VPC and availability zones to the application**
+- **Application ran successfully**
+
+## Troubleshooting:
+
+During this project, I encountered some difficulties while attempting to build a pipeline. When I attempted to run it the first time, it would stop and ask me to continue, resulting in a failure regardless. After troubleshooting, I found out it was a network issue on my end. After fixing the problem, I ran the pipeline again, and it was successful. Another problem I encountered was the extraction of the zipped file. During my SCP commands, I was failing to notice a syntax error on my end.
