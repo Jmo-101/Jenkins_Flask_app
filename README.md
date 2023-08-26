@@ -6,6 +6,11 @@
 
 This project was made to see my understanding of how to successfully deploy an application on Elastic Beanstalk by manually installing a Jenkins server on an AWS EC2 instance, running a successful pipeline, and achieving a successful deployment on AWS Elastic Beanstalk. Below are the steps I took to achieve that.
 
+## Planning:
+
+
+
+
 ## Github:
 
 - **Download zipped files from a repository**
