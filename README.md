@@ -45,6 +45,9 @@ This project was made to see my understanding of how to successfully deploy an a
 - **Added a VPC and availability zones to the application**
 - **Application ran successfully**
 
+<img width="500" alt="Screenshot 2023-08-26 at 12 41 38 AM" src="https://github.com/Jmo-101/Jenkins_Flask_app/assets/138607757/38fac360-b3e2-4120-a1a3-fdd3b1e96356">
+
+
 ## Troubleshooting:
 
 During this project, I encountered some difficulties while attempting to build a pipeline. When I attempted to run it the first time, it would stop and ask me to continue, resulting in a failure regardless as you can see in the Jenkins image. After troubleshooting, I found out it was a network issue on my end. After fixing the problem, I ran the pipeline again, and it was successful. Another problem I encountered was the extraction of the zipped file. During my SCP commands, I was failing to notice a syntax error on my end.
